@@ -1,0 +1,72 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.spelBody{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#board {
+    background-color: black;
+}
+
+.startsida{
+    display: grid;
+    grid-template-columns: 1fr ;
+    place-items: center;
+}
+.speltext{
+    color: rgb(239, 130, 5);
+}
+
+h2{ 
+font-size: 55px;  
+color: rgb(239, 130, 5);
+text-shadow:  2px 2px 3px rgba(77, 56, 25, 0.913);
+}
+
+.button{
+    width: 300px;
+    height: 150px;
+    background-color:rgb(239, 130, 5);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 100px;
+    box-shadow: 5px 5px 3px rgba(77, 56, 25, 0.913) ;
+}
+
+.buttonDiv{
+    transition: all 200ms ease-in-out;
+}
+
+.buttonDiv:hover{
+    transform: scale(1.1);
+}
+
+/* BAKGROUND FÄRG */
+body {
+	background: linear-gradient(-45deg, #0e0d0d, #303030, #2b2a2a, #0c0c0c);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
